@@ -1,0 +1,8 @@
+.agents/
+.impeccable/
+.vercel/
+work/
+tests/
+.github/
+**/*.md
+*.log

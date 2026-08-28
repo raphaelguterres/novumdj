@@ -1,0 +1,7 @@
+.vercel/
+.agents/
+.impeccable/
+work/
+.env*
+!.env.example
+*.log

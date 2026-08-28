@@ -1,0 +1,13 @@
+{
+  "name": "novum-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page de booking do NOVUM.",
+  "scripts": {
+    "check": "node --check api/stats.js && node --check api/links.js && node --check api/booking.js && node --check outputs/script.js",
+    "test": "node --test --test-isolation=none"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}
