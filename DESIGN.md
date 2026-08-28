@@ -75,7 +75,7 @@ Channel links use explicit names — Instagram, Spotify and SoundCloud — with 
 
 ### Booking brief
 
-The booking section asks for name, email, city, date, event type and an optional description. Submission prepares a structured message to WhatsApp `+55 51 99724-7382`; the interface explicitly tells visitors to review and press send inside WhatsApp and never claims that data was captured by a server.
+The booking section asks for name, email, city, date, event type and an optional description. Submission prepares a structured message to WhatsApp `+55 51 98217-1591`; the interface explicitly tells visitors to review and press send inside WhatsApp and never claims that data was captured by a server.
 
 ## Do's and don'ts
 

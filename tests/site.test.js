@@ -19,7 +19,7 @@ test('hero mantém copy, métricas e CTA esperados', () => {
 test('captação continua direcionada ao WhatsApp correto', () => {
   const script = read('outputs/script.js');
 
-  assert.match(script, /5551997247382/);
+  assert.match(script, /5551982171591/);
   assert.match(script, /https:\/\/wa\.me\//);
   assert.match(script, /fetch\('\/api\/stats'/);
 });

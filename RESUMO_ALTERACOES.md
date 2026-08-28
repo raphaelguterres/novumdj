@@ -45,7 +45,7 @@ eu-x20/
 - Link externo do Instagram protegido com `rel="noopener noreferrer"`.
 - Estados de interação preservados: hover, active e layout adaptado para telas menores.
 - Identificadores e classes renomeados para refletir melhor suas responsabilidades, como `site-nav`, `content` e `signal-dot`.
-- Formulário de booking conectado ao WhatsApp `+55 51 99724-7382`, com nome, e-mail, cidade, data, tipo e descrição do evento na mensagem pronta.
+- Formulário de booking conectado ao WhatsApp `+55 51 98217-1591`, com nome, e-mail, cidade, data, tipo e descrição do evento na mensagem pronta.
 - Textos técnicos pequenos das métricas removidos; a leitura visual agora mostra apenas SoundCloud, Spotify, Total e os números em tipografia de display.
 - Endpoint online `GET /api/stats` criado para recalcular as 10 faixas próprias do SoundCloud e somar com as 5 contagens públicas confirmadas do Spotify.
 - Cache de CDN configurado por uma hora, com atualização no carregamento, a cada hora enquanto a página estiver aberta e ao retornar para uma aba que ficou inativa.

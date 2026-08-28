@@ -21,7 +21,7 @@ Landing page de alta conversão para o **NOVUM**, DJ/Selecta. O projeto apresent
 | --- | --- |
 | Identidade | Pôster digital de alto contraste, tipografia Anton e fotografia de performance otimizada. |
 | Conversão | CTA no hero, dock móvel e formulário com nome, e-mail, cidade, data, tipo e briefing do evento. |
-| Atendimento | Mensagem estruturada para `+55 51 99724-7382` via WhatsApp. |
+| Atendimento | Mensagem estruturada para `+55 51 98217-1591` via WhatsApp. |
 | Métricas | API `/api/stats` com cache de CDN de uma hora para SoundCloud, Spotify e total consolidado. |
 | Performance | Imagens responsivas em WebP, fallback PNG, scripts com `defer` e animações GSAP curtas. |
 | Confiabilidade | Fallback para a última contagem pública conhecida do Spotify caso a plataforma não exponha os números ao servidor. |

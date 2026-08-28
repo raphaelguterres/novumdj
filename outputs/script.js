@@ -1,7 +1,7 @@
 (() => {
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const { gsap, ScrollTrigger } = window;
-  const bookingWhatsApp = '5551997247382';
+  const bookingWhatsApp = '5551982171591';
   const bookingForm = document.querySelector('#booking-form');
   const leadDock = document.querySelector('.lead-dock');
   const bookingSection = document.querySelector('#booking');

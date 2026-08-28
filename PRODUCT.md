@@ -43,7 +43,7 @@ A avaliação acontece principalmente em celular e desktop, por pessoas descobri
 - Perfil de Spotify: `https://open.spotify.com/artist/1F3gUK3swGl27lTlPuM3qD`.
 - Perfil de SoundCloud: `https://soundcloud.com/djnovum`.
 - Contato: `booking@novumdj.com`.
-- WhatsApp de booking: `+55 51 99724-7382`.
+- WhatsApp de booking: `+55 51 98217-1591`.
 
 ## Public Platform Signals
 
