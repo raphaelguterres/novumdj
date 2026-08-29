@@ -117,24 +117,15 @@
   gsap.set('.hero-title span', { yPercent: 115 });
   gsap.set('.baile-stamp, .platform-stats', { y: 18 });
   gsap.set('.booking-board', { yPercent: 100 });
-  gsap.set('.scroll-cue', { y: 10 });
 
   intro
     .fromTo('.hero-background', { scale: 1.065, xPercent: -0.5 }, { scale: 1.025, xPercent: 0, duration: 0.62 })
     .to('.hero-title span', { autoAlpha: 1, yPercent: 0, duration: 0.38 }, '-=0.4')
     .to('.baile-stamp', { autoAlpha: 1, y: 0, duration: 0.2 }, '-=0.12')
     .to('.platform-stats', { autoAlpha: 1, y: 0, duration: 0.24 }, '<')
-    .to('.scroll-cue', { autoAlpha: 1, y: 0, duration: 0.16 }, '-=0.08')
-    .to('.booking-board', { autoAlpha: 1, yPercent: 0, duration: 0.28 }, '-=0.14');
+    .to('.booking-board', { autoAlpha: 1, yPercent: 0, duration: 0.28 }, '-=0.06');
 
   if (!ScrollTrigger) return;
-
-  gsap.to('.scroll-cue', {
-    autoAlpha: 0,
-    y: 8,
-    ease: 'none',
-    scrollTrigger: { trigger: '.hero', start: 'top top', end: '28% top', scrub: true }
-  });
 
   gsap.fromTo('.social-link', { x: -18, autoAlpha: 0 }, {
     x: 0,
