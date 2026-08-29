@@ -10,6 +10,7 @@
   let statsUpdatedAt = 0;
 
   const formatPlays = (value) => new Intl.NumberFormat('pt-BR').format(value);
+  const formatCompactPlays = (value) => `${Math.floor(value / 1000)}K+`;
 
   const updatePlatformStats = async () => {
     try {
@@ -29,14 +30,10 @@
 
       Object.entries(values).forEach(([key, value]) => {
         const target = document.querySelector(`[data-stat="${key}"]`);
-        if (target) target.textContent = formatPlays(value);
+        if (target) target.textContent = key === 'total' ? formatCompactPlays(value) : formatPlays(value);
       });
 
-      const soundcloudLink = document.querySelector('.platform-stat[href*="soundcloud.com"]');
-      const spotifyLink = document.querySelector('.platform-stat[href*="spotify.com"]');
-      const total = document.querySelector('.platform-total');
-      soundcloudLink?.setAttribute('aria-label', `${formatPlays(values.soundcloud)} reproduções em ${data.soundcloud.tracks} faixas próprias no SoundCloud`);
-      spotifyLink?.setAttribute('aria-label', `${formatPlays(values.spotify)} reproduções nas ${data.spotify.tracks} faixas com números públicos no Spotify`);
+      const total = document.querySelector('[data-stat="total"]');
       total?.setAttribute('aria-label', `${formatPlays(values.total)} reproduções públicas somadas`);
 
       statsUpdatedAt = Date.now();
@@ -115,7 +112,7 @@
   const intro = gsap.timeline({ defaults: { ease: 'power3.out' } });
 
   gsap.set('.hero-title span', { yPercent: 115 });
-  gsap.set('.baile-stamp, .platform-stats', { y: 18 });
+  gsap.set('.baile-stamp', { y: 18 });
   gsap.set('.booking-board', { yPercent: 100 });
   gsap.set('.scroll-cue', { y: 10 });
 
@@ -123,7 +120,6 @@
     .fromTo('.hero-background', { scale: 1.065, xPercent: -0.5 }, { scale: 1.025, xPercent: 0, duration: 0.62 })
     .to('.hero-title span', { autoAlpha: 1, yPercent: 0, duration: 0.38 }, '-=0.4')
     .to('.baile-stamp', { autoAlpha: 1, y: 0, duration: 0.2 }, '-=0.12')
-    .to('.platform-stats', { autoAlpha: 1, y: 0, duration: 0.24 }, '<')
     .to('.scroll-cue', { autoAlpha: 1, y: 0, duration: 0.16 }, '-=0.08')
     .to('.booking-board', { autoAlpha: 1, yPercent: 0, duration: 0.28 }, '-=0.14');
 
