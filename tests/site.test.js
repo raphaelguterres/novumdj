@@ -10,8 +10,9 @@ test('hero mantém copy, métricas e CTA esperados', () => {
   const html = read('outputs/index.html');
 
   assert.match(html, /MONTE SEU EVENTO/i);
+  assert.match(html, /data-stat="soundcloud"/);
+  assert.match(html, /data-stat="spotify"/);
   assert.match(html, /data-stat="total"/);
-  assert.match(html, /SPOTIFY\s*\/\s*SOUNDCLOUD/);
   assert.match(html, /FAÇA SEU BAILE/i);
   assert.match(html, /MONTE SEU EVENTO/i);
 });
