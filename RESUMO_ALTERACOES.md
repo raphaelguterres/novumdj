@@ -7,7 +7,7 @@ Organizar a landing page estática do NOVUM em uma estrutura mais limpa, sustent
 ## Estrutura criada
 
 ```text
-eu-x20/
+novumdj/
 ├── api/
 │   ├── booking.js
 │   ├── links.js
@@ -50,7 +50,7 @@ eu-x20/
 - Endpoint online `GET /api/stats` criado para recalcular as 10 faixas próprias do SoundCloud e somar com as 5 contagens públicas confirmadas do Spotify.
 - Cache de CDN configurado por uma hora, com atualização no carregamento, a cada hora enquanto a página estiver aberta e ao retornar para uma aba que ficou inativa.
 - Fallback seguro mantém o último número confirmado do Spotify quando a página pública não entrega as contagens ao servidor.
-- Site publicado em produção na Vercel: `https://eu-x20.vercel.app`.
+- Site publicado em produção na Vercel: `https://novumdj.vercel.app`.
 
 ## Validação executada
 

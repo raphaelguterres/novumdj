@@ -1,11 +1,11 @@
 # NOVUM — Booking Experience
 
-[![CI](https://github.com/raphaelguterres/eu-x20/actions/workflows/ci.yml/badge.svg)](https://github.com/raphaelguterres/eu-x20/actions/workflows/ci.yml)
-[![Live site](https://img.shields.io/badge/live-eu--x20.vercel.app-050505?style=flat-square)](https://eu-x20.vercel.app)
+[![CI](https://github.com/raphaelguterres/novumdj/actions/workflows/ci.yml/badge.svg)](https://github.com/raphaelguterres/novumdj/actions/workflows/ci.yml)
+[![Live site](https://img.shields.io/badge/live-novumdj.vercel.app-050505?style=flat-square)](https://novumdj.vercel.app)
 
 Landing page de alta conversão para o **NOVUM**, DJ/Selecta. O projeto apresenta a identidade do artista, prova social por reproduções públicas e um fluxo de booking que prepara o briefing do lead diretamente no WhatsApp.
 
-**[Ver site em produção →](https://eu-x20.vercel.app)**
+**[Ver site em produção →](https://novumdj.vercel.app)**
 
 ## O que a experiência resolve
 
@@ -29,7 +29,7 @@ Landing page de alta conversão para o **NOVUM**, DJ/Selecta. O projeto apresent
 ## Arquitetura
 
 ```text
-eu-x20/
+novumdj/
 ├── api/                    # Vercel Functions
 │   ├── booking.js           # Validação de booking legada
 │   ├── links.js             # Links oficiais
