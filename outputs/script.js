@@ -116,14 +116,14 @@
 
   gsap.set('.hero-title span', { yPercent: 115 });
   gsap.set('.baile-stamp, .platform-stats', { y: 18 });
-  gsap.set('.hero-record', { y: 14, scale: 0.96 });
+  gsap.set('.hero-cube', { y: 14, scale: 0.96 });
   gsap.set('.booking-board', { yPercent: 100 });
 
   intro
     .fromTo('.hero-background', { scale: 1.065, xPercent: -0.5 }, { scale: 1.025, xPercent: 0, duration: 0.62 })
     .to('.hero-title span', { autoAlpha: 1, yPercent: 0, duration: 0.38 }, '-=0.4')
     .to('.baile-stamp', { autoAlpha: 1, y: 0, duration: 0.2 }, '-=0.12')
-    .to('.hero-record', { autoAlpha: 1, y: 0, scale: 1, duration: 0.24 }, '<')
+    .to('.hero-cube', { autoAlpha: 1, y: 0, scale: 1, duration: 0.24 }, '<')
     .to('.platform-stats', { autoAlpha: 1, y: 0, duration: 0.24 }, '<')
     .to('.booking-board', { autoAlpha: 1, yPercent: 0, duration: 0.28 }, '-=0.06');
 
